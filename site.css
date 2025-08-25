@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header,#header2, #header3, #header4{
+    text-align: center;
+    padding: 15px;
+    background: #c4c4c4;
+    
+}
+
+#menu{
+     text-align: center;
+    background: #c4c4c4;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:  #b1b1b1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #0066cc;
+}
+
+a:hover{
+    background: white;
+    text-decoration: underline;
+}
+
+#me, #portifolio, #formacao{
+    font-size: 16px;
+    padding: 3px;
+    border-right: 1px solid #0066cc;
+}
+
+#contato{
+    font-size: 16px;
+    padding: 3px;
+}
+
+
+#quem, #conhecimento, #hobbie, #educacion, #idiomas{
+    padding: 10px 0px;
+}
+
+#conhecimento{
+    padding: 10px 0px;
+}
+
+
+
+p{
+    text-decoration: underline;
+    text-align: justify;
+}
+
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding:15px;
+    background: #969696;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#icone1, #icone2, #icone{
+   width: 30px;
+   height: 30px;
+   vertical-align: middle;
+   border-radius: 50%;
+   border: 1px solid black;
+   background: white;
+}
+
+#icone3{
+   width: 30px;
+   height: 30px;
+   vertical-align: middle;
+   border-radius: 50%;
+   border: 1px solid green;
+   background: green;
+}
+
+#telefone, #email{
+    font-size: 25px;
+    color: black;
+}
+
+#WhatsApp{
+    font-size: 25px;
+    color: green;
+}
+
+#footer{
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    background: #c4c4c4;
+    color: #0066CC;
+}
+
+#footer img{
+    width: 30px;
+    height: 30px;
+}
