@@ -3,38 +3,54 @@
     padding: 0;
 }
 
-#header,#header2, #header3, #header4{
+/*  */
+
+#header,#header2, #header3{
     text-align: center;
-    padding: 15px;
-    background: #c4c4c4;
-    
+    padding: 16px;
+    color: white;
 }
+
+#header4{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/*  */
 
 #menu{
      text-align: center;
-    background: #c4c4c4;
+     padding: 4.5px;
 }
+
+/*  */
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background:  #b1b1b1;
+    background: linear-gradient(80deg, #1a29f5, #f72222);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
+
+/*  */
 
 a{
     text-decoration: none;
 }
 
 a:link, a:visited{
-    color: #0066cc;
+    color: #0066CC;
 }
 
 a:hover{
-    background: white;
     text-decoration: underline;
 }
+
+/*  */
 
 #me, #portifolio, #formacao{
     font-size: 16px;
@@ -42,37 +58,47 @@ a:hover{
     border-right: 1px solid #0066cc;
 }
 
+/*  */
+
 #contato{
     font-size: 16px;
     padding: 3px;
 }
 
+/*  */
 
 #quem, #conhecimento, #hobbie, #educacion, #idiomas{
     padding: 10px 0px;
 }
 
+/*  */
+
 #conhecimento{
     padding: 10px 0px;
 }
 
-
+/*  */
 
 p{
     text-decoration: underline;
     text-align: justify;
+    color: rgb(0, 0, 0);
 }
+
+/*  */
 
 #content{
     width: 920px;
     margin: 0 auto;
     padding:15px;
-    background: #969696;
     padding: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
-#icone1, #icone2, #icone{
+/*  */
+
+#icone1, #icone2{
    width: 30px;
    height: 30px;
    vertical-align: middle;
@@ -90,9 +116,15 @@ p{
    background: green;
 }
 
-#telefone, #email{
+
+#telefone{
     font-size: 25px;
-    color: black;
+    color: rgb(0, 0, 0);
+}
+
+#email{
+    font-size: 25px;
+    color: #f72222
 }
 
 #WhatsApp{
@@ -104,11 +136,26 @@ p{
     text-align: center;
     clear: both;
     padding: 10px;
-    background: #c4c4c4;
-    color: #0066CC;
 }
 
 #footer img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
+
+/*  */
+
+.typewriter {
+      font-size: 2rem;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 4s steps(30, end) forwards,
+                 blink .7s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 20ch; } /* quantidade de caracteres */
+    }
+
+    
