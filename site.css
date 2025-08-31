@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/*  */
+/* HEADER(CABEÇALHO) */
 
 #header,#header2, #header3{
     text-align: center;
@@ -17,14 +17,14 @@
     color: white;
 }
 
-/*  */
+/* MENU */
 
 #menu{
      text-align: center;
      padding: 4.5px;
 }
 
-/*  */
+/* CORPO DO SITE */
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,7 +36,7 @@ body{
     min-height: 100vh;
 }
 
-/*  */
+/* MODIFICAÇÕES DOS LINKS */
 
 a{
     text-decoration: none;
@@ -50,7 +50,7 @@ a:hover{
     text-decoration: underline;
 }
 
-/*  */
+/* MODIFICAÇÕES DAS PAGINAS */
 
 #me, #portifolio, #formacao{
     font-size: 16px;
@@ -58,26 +58,20 @@ a:hover{
     border-right: 1px solid #0066cc;
 }
 
-/*  */
-
 #contato{
     font-size: 16px;
     padding: 3px;
 }
 
-/*  */
-
-#quem, #conhecimento, #hobbie, #educacion, #idiomas{
+#Eu, #conhecimento, #hobbie, #educacion, #idiomas{
     padding: 10px 0px;
 }
-
-/*  */
 
 #conhecimento{
     padding: 10px 0px;
 }
 
-/*  */
+/* MODIFICAÇÕES DOS PARAGRAFOS */
 
 p{
     text-decoration: underline;
@@ -85,9 +79,9 @@ p{
     color: white;
 }
 
-/*  */
+/* CONTEUDO DAS PAGINAS */
 
-#content{
+.content{
     width: 920px;
     margin: 0 auto;
     padding:15px;
@@ -96,7 +90,7 @@ p{
     color: white;
 }
 
-/*  */
+/* MODIFICAÇOES DOS ICONES */
 
 #icone1, #icone2{
    width: 30px;
@@ -116,6 +110,34 @@ p{
    background: green;
 }
 
+#icone4{
+    width: 30px;
+   height: 30px;
+   display: flex;
+   padding: 5px;
+   float: left
+}
+
+#icone5{
+    width: 30px;
+   height: 30px;
+   display: flex;
+   padding: 5px;
+   float: left
+}
+
+#icone6{
+   width: 30px;
+   height: 30px;
+   float:inline-start;
+}
+
+.icone7{
+    width: 30px;
+   height: 30px;
+}
+
+/* MODIFCAÇÕES DOS MEIOS DE CONTATO */
 
 #telefone{
     font-size: 25px;
@@ -143,7 +165,7 @@ p{
     height: 40px;
 }
 
-/*  */
+/* ANIMAÇÃO DO TEXTO */
 
 .typewriter {
       font-size: 2rem;
@@ -157,4 +179,19 @@ p{
       from { width: 0; }
       to { width: 20ch; } /* quantidade de caracteres */
     }
+
+ /* MODFICAÇÃO DO BOX */ 
+#box{
+    width: 100%;
+}
+
+#box textarea{
+    height: 30px;
+}
+
+
+#botao{
+   color: #0066CC; 
+}
+
 
